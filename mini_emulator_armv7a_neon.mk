@@ -29,6 +29,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
     device/generic/mini-emulator-armv7-a-neon/init.mini-emulator-armv7-a-neon.rc:root/init.goldfish.rc \
+    device/generic/goldfish/init.goldfish.sh:system/etc/init.goldfish.sh \
+    device/generic/goldfish/ueventd.goldfish.rc:root/ueventd.goldfish.rc \
     device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
     frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
