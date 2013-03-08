@@ -15,9 +15,25 @@
 # common stuffs across mini_emulators
 
 PRODUCT_PACKAGES += \
-    audio.primary.goldfish
+    audio.primary.goldfish \
+    camera.goldfish \
+    gps.goldfish \
+    gralloc.goldfish \
+    lights.goldfish \
+    power.goldfish \
+    sensors.goldfish \
+    qemu-props \
+    qemud \
+    libGLESv1_CM_emulation \
+    lib_renderControl_enc \
+    libEGL_emulation \
+    libGLESv2_enc \
+    libOpenglSystemCommon \
+    libGLESv2_emulation \
+    libGLESv1_enc \
+    rild
 
-# media_profiles and media_codecs will be moved later!
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
     device/generic/mini-emulator-armv7-a-neon/init.mini-emulator.rc:root/init.goldfish.rc \
@@ -28,5 +44,5 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf \
     hardware/libhardware_legacy/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    $(call add-to-product-copy-files-if-exists,development/tools/emulator/system/camera/media_profiles.xml:system/etc/media_profiles.xml) \
-    $(call add-to-product-copy-files-if-exists,development/tools/emulator/system/camera/media_codecs.xml:system/etc/media_codecs.xml)
+    device/generic/goldfish/camera/media_profiles.xml:system/etc/media_profiles.xml \
+    device/generic/goldfish/camera/media_codecs.xml:system/etc/media_codecs.xml
