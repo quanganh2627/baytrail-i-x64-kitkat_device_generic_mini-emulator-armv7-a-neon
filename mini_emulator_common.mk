@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel \
     device/generic/mini-emulator-armv7-a-neon/init.mini-emulator.rc:root/init.goldfish.rc \
     device/generic/goldfish/init.goldfish.sh:system/etc/init.goldfish.sh \
     device/generic/goldfish/ueventd.goldfish.rc:root/ueventd.goldfish.rc \
