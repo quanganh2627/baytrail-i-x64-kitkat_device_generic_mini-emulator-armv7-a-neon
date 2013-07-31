@@ -44,4 +44,5 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf \
     hardware/libhardware_legacy/audio/audio_policy.conf:system/etc/audio_policy.conf \
     device/generic/goldfish/camera/media_profiles.xml:system/etc/media_profiles.xml \
-    device/generic/goldfish/camera/media_codecs.xml:system/etc/media_codecs.xml
+    device/generic/goldfish/camera/media_codecs.xml:system/etc/media_codecs.xml \
+    device/generic/goldfish/fstab.goldfish:root/fstab.goldfish
