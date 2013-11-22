@@ -22,6 +22,6 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := mini-emulator-armv7-a-neon
 
 
-LOCAL_KERNEL := prebuilts/qemu-kernel/arm/3.4/kernel-qemu-armv7
+LOCAL_KERNEL := prebuilts/qemu-kernel/arm/kernel-qemu-armv7
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
