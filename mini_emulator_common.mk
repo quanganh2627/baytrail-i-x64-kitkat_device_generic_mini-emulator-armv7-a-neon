@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     lights.goldfish \
     power.goldfish \
     sensors.goldfish \
+    vibrator.goldfish \
     qemu-props \
     qemud \
     libGLESv1_CM_emulation \
