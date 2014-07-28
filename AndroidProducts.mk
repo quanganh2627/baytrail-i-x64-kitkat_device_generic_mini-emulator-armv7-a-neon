@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mini_emu_armv7a.mk
+    $(LOCAL_DIR)/mini_emulator_arm.mk
