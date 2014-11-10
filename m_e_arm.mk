@@ -16,7 +16,7 @@ $(call inherit-product, device/generic/armv7-a-neon/mini_armv7a_neon.mk)
 
 $(call inherit-product, device/generic/mini-emulator-armv7-a-neon/mini_emulator_common.mk)
 
-PRODUCT_NAME := mini_emulator_arm
+PRODUCT_NAME := m_e_arm
 PRODUCT_DEVICE := mini-emulator-armv7-a-neon
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := mini-emulator-armv7-a-neon
